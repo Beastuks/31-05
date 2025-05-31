@@ -1,0 +1,224 @@
+    /* global */
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    
+    }
+    html{
+        font-size: 16px;
+    }
+
+    .container{
+    background: hsl(270, 20%, 96%);
+    width: 100%;
+    height: auto;
+    
+    }
+    p{
+        font-size: 10px;
+    }
+    /* header section*/
+    .phone_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+    .highlight_section{
+    
+    }
+    .phone{
+    margin: 50px auto;
+    width: 70%;
+    border-radius: 40px;
+    border: solid white 10px;
+    position: relative;
+    box-shadow: 8px 8px 20px  rgba(0,0,0, 0.1);
+
+    }
+    .sub-header{
+    position: relative;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    }
+    .notch{
+        position: absolute;
+        width: 50%;
+        height: 1.5rem;
+        top:-5px;
+        left: 50%;
+        transform: translate(-50%);
+        background: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+
+    }
+    .contact{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    }
+    .contact::before{
+        content: "<";
+    font-weight: bold;
+    color: white;
+    }
+    .contact p{
+    font-size: 0.8rem;
+    color: hsl(276, 100%, 81%);
+    }
+    .contact h3{
+        font-weight: 500;
+        font-size:1rem;
+    color: white;
+    }
+
+    .contact img{
+        width: 30px;
+        height: auto;
+        border-radius: 100%;
+        border: solid white 2px;
+
+    }
+    .hamburger_menu{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 1rem;
+        bottom: 2rem;
+
+    }
+    .hamburger_menu i{
+        color: white;
+        font-size: 1.5rem;
+    }
+    /* content */
+    .content{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       background: hsl(270, 20%, 96%);
+       border-bottom-right-radius: 30px;
+       border-bottom-left-radius: 30px;
+
+    }
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    
+    
+
+}
+.texts-left{
+    background: #eee;
+    color:  hsl(276, 55%, 52%);
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 200px;
+   align-self:start;
+}
+.texts-right{
+    background: white;
+    color:  hsl(271, 15%, 43%);
+    border-radius: 10px;
+    padding: 0.5rem;
+   max-width :70%;
+    align-self: end;
+    text-align: start;
+        box-shadow: 5px 5px 20px  rgba(0,0,0, 0.1);
+
+
+}
+.dog_photos{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-self: flex-end;
+}
+.dog_photos img{
+    width: 3rem;
+    border-radius: 15px;
+}
+.offer{
+    align-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: linear-gradient(to right,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    display: flex;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: white;
+
+}
+.offer::before{
+    content: "\f111";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    color: hsl(276, 100%, 81%);
+}
+.text-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    padding: 0.2rem 0.5rem;
+    margin: 1rem 0rem;
+    }
+    .text-area p{
+        margin-left: 1rem;
+        color: hsl(206, 6%, 79%)
+    }
+    .text-submit{
+        background: hsl(271, 36%, 24%);
+        color: white;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        font-weight: bold;
+
+
+    }
+    .big-decoration{
+        width: 13rem;
+        height: 35rem;
+    background: linear-gradient(-45deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        position: absolute;
+        border-bottom-right-radius: 100%;
+        left: -1rem;
+    }
