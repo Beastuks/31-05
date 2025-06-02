@@ -238,3 +238,35 @@
         margin: 2rem 0rem;
         
     }
+    /* desktop design */ 
+    @media(min-width: 376px){
+        .container{
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+        .phone_section, .highlight-section{
+            width: 30%;
+        }
+        .highlight-section p, h1{
+            align-self: flex-start;
+            text-align: left;
+        }
+
+        .big-decoration{
+            top: 0px;
+            left: -5rem;
+            width: 35%;
+            height: 40rems;
+            border-bottom-right-radius: 300px;
+            border-bottom-left-radius: 300px;
+
+        }
+        .phone{
+            height:;
+        }
+
+    }
